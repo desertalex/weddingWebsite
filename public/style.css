@@ -1,0 +1,133 @@
+/*
+Color Palette
+#F2EFC7
+#E48BAA
+#BC96E6
+#D8B4E2
+#AE759F
+*/
+
+/* Default values */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Set font for elements */
+p, a, table {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    color: #F2EFC7;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    color: #E48BAA;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Styling for picture on intro */
+#introduction {
+    background-image: url("engagement-photo-medium.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* Styling for intro text */
+#intro-text {
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 15%;
+    font-family: 'Great Vibes', cursive;
+    color: #F2EFC7;
+}
+
+/* Background color and font color for divs */
+#date {
+    background-color: #BC96E6;
+    color: #F2EFC7;
+}
+
+#location {
+    background-color: #E48BAA;
+    color: #F2EFC7;
+}
+
+#schedule {
+    background-color: #BC96E6;
+    color: #F2EFC7;
+}
+
+.padding {
+    padding: 20px;
+}
+
+#map {
+    background-color: #D8B4E2;
+}
+
+/* #countdown {
+    padding: 20px;
+} */
+
+
+/* Table styling */
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 250px;
+    text-align: center;
+}
+  
+th, td {
+    border-bottom: 1px solid #D8B4E2;
+    padding: 10px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+  
+tr:hover {
+    background-color: #E48BAA;
+}
+  
+td.time {
+    text-align: center;
+}
+
+/* Google Map */
+#google-map{
+    width: 80%;
+    max-width: 600px;
+    height: 300px;
+}
