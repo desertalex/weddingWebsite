@@ -55,9 +55,21 @@ div {
 
 /* Styling for picture on intro */
 #introduction {
-    background-image: url("engagement-photo-medium.jpg");
+    background-image: url("photos/engagement-photo-medium.jpg");
     background-size: cover;
     background-position: 50% 50%;
+}
+
+@media only screen and (min-width: 2048px) {
+    #introduction {
+        background-image: url("photos/engagement-photo-large.jpg");
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #introduction {
+        background-image: url("photos/engagement-photo-small.jpg");
+    }
 }
 
 /* Styling for intro text */
