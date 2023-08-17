@@ -17,16 +17,16 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* Set font for elements */
@@ -37,7 +37,7 @@ p, a, table {
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a:hover {
@@ -80,6 +80,7 @@ div {
     bottom: 15%;
     font-family: 'Great Vibes', cursive;
     color: #F2EFC7;
+    text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
 /* Background color and font color for divs */
@@ -106,6 +107,11 @@ div {
     background-color: #D8B4E2;
 }
 
+#rsvp {
+    background-color: #E48BAA;
+    color: #F2EFC7;
+}
+
 /* #countdown {
     padding: 20px;
 } */
@@ -119,7 +125,7 @@ table {
     max-width: 250px;
     text-align: center;
 }
-  
+
 th, td {
     border-bottom: 1px solid #D8B4E2;
     padding: 10px;
@@ -128,18 +134,36 @@ th, td {
 tr:last-child td {
     border-bottom: none;
 }
-  
+
 tr:hover {
     background-color: #E48BAA;
 }
-  
+
 td.time {
     text-align: center;
 }
 
 /* Google Map */
-#google-map{
+#google-map {
     width: 80%;
     max-width: 600px;
     height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    #google-form-embed {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #google-form-link {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 716px) {
+    #rsvp {
+        height: 716px;
+    }
 }
