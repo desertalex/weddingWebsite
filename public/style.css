@@ -112,6 +112,10 @@ div {
     color: #F2EFC7;
 }
 
+#registry {
+    background-color: #D8B4E2;
+}
+
 /* #countdown {
     padding: 20px;
 } */
@@ -150,13 +154,13 @@ td.time {
     height: 300px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 657px) {
     #google-form-embed {
         display: none;
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 657px) {
     #google-form-link {
         display: none;
     }
