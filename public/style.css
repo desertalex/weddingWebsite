@@ -31,7 +31,7 @@ time, mark, audio, video {
 
 /* Set font for elements */
 p, a, table {
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Lato', sans-serif;
     color: #F2EFC7;
 }
@@ -89,18 +89,24 @@ div {
 
 /* Background color and font color for divs */
 #date {
-    background-color: #BC96E6;
+    background-image: url("photos/side-mandala.jpg");
+    background-size: cover;
     color: #F2EFC7;
+    text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
 #location {
-    background-color: #E48BAA;
-    color: #F2EFC7;
+    background-image: url("photos/banig-pattern.jpg");
+    
+    background-size: cover;
+    text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
 #schedule {
-    background-color: #BC96E6;
+    background-image: url("photos/brown-paper.png");
+    
     color: #F2EFC7;
+    text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
 .padding {
@@ -108,10 +114,14 @@ div {
 }
 
 #map {
+    background-image: url("photos/fan.png");
+    background-size: cover;
     background-color: #D8B4E2;
+    text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
 #rsvp {
+    background-image: url("photos/ph-textile.jpg");
     background-color: #E48BAA;
     color: #F2EFC7;
 }
