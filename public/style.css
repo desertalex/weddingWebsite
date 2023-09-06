@@ -36,6 +36,10 @@ p, a, table {
     color: #F2EFC7;
 }
 
+p, a {
+    max-width: 600px;
+}
+
 a {
     text-decoration: none;
 }
@@ -114,6 +118,11 @@ div {
 
 #registry {
     background-color: #D8B4E2;
+}
+
+#hotel {
+    background-color: #BC96E6;
+    color: #F2EFC7;
 }
 
 /* #countdown {
