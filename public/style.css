@@ -42,6 +42,10 @@ p, a {
 
 a {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 a:hover {
@@ -91,21 +95,18 @@ div {
 #date {
     background-image: url("photos/side-mandala.jpg");
     background-size: cover;
-    color: #F2EFC7;
     text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
 #location {
-    background-image: url("photos/banig-pattern.jpg");
-    
+    background-image: url("photos/faded-banig.png");
     background-size: cover;
     text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
 #schedule {
-    background-image: url("photos/brown-paper.png");
-    
-    color: #F2EFC7;
+    background-image: url("photos/faded-brown-paper.png");
+    background-size: cover;
     text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
@@ -114,16 +115,16 @@ div {
 }
 
 #map {
-    background-image: url("photos/fan.png");
+    background-image: url("photos/ph-textile.jpg");
     background-size: cover;
     background-color: #D8B4E2;
     text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
 #rsvp {
-    background-image: url("photos/ph-textile.jpg");
+    background-image: url("photos/salmon-pink-abaca.jpg");
+    background-size: cover;
     background-color: #E48BAA;
-    color: #F2EFC7;
 }
 
 #registry {
@@ -131,8 +132,10 @@ div {
 }
 
 #hotel {
+    background-image: url("photos/faded-malong.jpg");
+    background-size: cover;
     background-color: #BC96E6;
-    color: #F2EFC7;
+    text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
 /* #countdown {
