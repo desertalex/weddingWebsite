@@ -121,14 +121,16 @@ div {
     text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
+#registry {
+    background-image: url("photos/faded-brown-paper.png");
+    background-color: #D8B4E2;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+}
+
 #rsvp {
     background-image: url("photos/salmon-pink-abaca.jpg");
     background-size: cover;
     background-color: #E48BAA;
-}
-
-#registry {
-    background-color: #D8B4E2;
 }
 
 #hotel {
